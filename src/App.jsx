@@ -1,9 +1,18 @@
 
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import Main from "./components/Main/Main";
 
 export default function App() {
 
   return (
-    <h1> MovieDB</h1>
+    <div>
+
+      <Header />
+      <Main />
+      <Footer />
+    </div>
+
   )
 
 }
