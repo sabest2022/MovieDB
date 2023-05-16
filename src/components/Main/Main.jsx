@@ -1,3 +1,5 @@
+
+
 import React from 'react';
 import MovieList from "../MovieList/MovieList";
 import MovieDetails from "../MovieDetails/MovieDetails";
@@ -10,7 +12,7 @@ export default function Main() {
             <Routes>
 
                 <Route path='/' element={<MovieList />} />
-                <Route path=':id' element={<MovieDetails />} />
+                <Route path=':id' element={<MovieDetails movie={movie} />} />
                 <Route path='about' element={<About />} />
                 <Route path='contact' element={<Contact />} />
 

@@ -1,0 +1,29 @@
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* 4 columns */
+    grid-template-rows: repeat(3, 1fr);
+    /* 3 rows */
+    gap: 1rem;
+    /* gap between grid items */
+}
+
+.movie-card {
+    /* Styling for the movie card */
+    /* Adjust as per your design requirements */
+}
+
+.movie-poster {
+    /* Styling for the movie poster */
+    /* Adjust as per your design requirements */
+}
+
+.movie-title {
+    /* Styling for the movie title */
+    /* Adjust as per your design requirements */
+}
+
+.movie-release-date {
+    /* Styling for the movie release date */
+    /* Adjust as per your design requirements */
+}
